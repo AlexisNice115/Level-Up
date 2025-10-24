@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--This is the at the very top of the page (heading)-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <p style="text-align: center;"></p>
+    <h1 style="text-align: center;">Level Up</h1>
+    <link rel="stylesheet" href="Features.css">
+    <title>Level Up</title>
+</head>
+
+<!--This is for the rest of the words to be more align with the heading/the style of the app/the format of the app-->
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #9f45b0;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    button{
+        margin: 10px;
+        padding: 10px;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    a{
+        text-decoration: underline;
+        text-decoration-color: white;
+        color: white;
+    }
+
+    input[type="text"]{
+        padding: 10px;
+        width: 60%;
+        border: none;
+        border-radius: 5px;
+    }
+</style>
+
+<!--This is where the body/all the essential items of the app will go here-->
+<body>
+<!--this is for the first page/section/every other features here/placement are at-->
+
+        <p style="text-align: center;"></p>
+        <h1 style="text-align: center;">"We make choices easy for you"</h1>
+        <script>
+            src="script.js"
+        </script>
+
+        <!--This is one of the titles that will display once you enter the app/website-->
+        <section>
+            <h1 style="text-align: center;">Choose your way to sign in</h1>
+
+            <!--this is for the section to log various ways-->
+            <p> Sign in with existing account</p>
+            <a href="Sign%20in.html"><button onclick="window.location.href='https://levelup.me/login'">Log in</button></a>
+
+            <!--Guest sign in feature here-->
+            <p>Sign in still as Guest</p>
+          <a href="SignInTypes.html"><button onclick="window.location.href='https://levelup.me/login'">Log in</button></a>
+
+            <!--Connected with exist account from different services sign in feature here-->
+
+            <p>Sign in using connected services</p>
+            <a href=""><button onclick="window.location.href='https://levelup.me/login'">Log in</button></a>
+        </section>
+
+<!--This is where the links/redirect location to the other pages (maybe working on it as a menu/drop down)-->
+    <section>
+        <h2>Explore More </h2>
+
+        <a href="Recommendations.html"> <p> Game Recommendations Page </p> </a>
+        <a href="Newsletter.html"> <p> Newsletter Page </p> </a>
+        <a href="Profile.html"> Profile Page </a>
+
+    </section>
+
+
+<!--this is where the ChatBot/Section code for the app is here -->
+
+<div id = "Chatbot-container">
+    <p> Chatbot Associate</p>
+    <div id="chat-messages"></div>
+    <label for="chat-message-input"></label>
+    <input type="text" id="chat-message-input" placeholder="Type your message here...">
+    <button onclick="sendChatMessage()">Send</button>
+
+</div>
+
+
+<!--This section is for chatbot (features and mainly the response it can produce)-->
+<script>
+    //this is where the chatbot should be able to function property
+    //must be connected with API from the choice AI source key and backend
+    function sendChatMessage() {
+        const input = document.getElementById('chat-message-input')
+        const message = input.value();
+        if(message === '')
+            return;
+
+        const chatbox = document.getElementById('chat-message-input');
+        const userMessage = document.createElement('div');
+        userMessage.textContent = " You: " + message;
+        chatbox.append(userMessage);
+
+        //this is where the chatbot should come up with responses
+        const chatMessage = document.createElement('div');
+        chatMessage.textContent = "ChatBot: Thank you for your request" ;
+        chatbox.append(chatMessage);
+
+        input.value('');
+        chatbox.scrollTop = chatbox.scrollHeight;
+    }
+</script>
+
+<!--This should be for the next page/this was a test run, you can keep or delete, it was just reference -->
+<!--<section>-->
+<!--    <button onclick="My function()">Try it</button>-->
+<!--</section>-->
+<!--<script>-->
+<!--    function My function() {-->
+<!--        window.open("https://www.levelup.com/");-->
+<!--    }-->
+<!--</script>-->
+
+</body>
+</html>
