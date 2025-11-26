@@ -1,0 +1,11 @@
+{
+  "users": [],
+  "newsletter": [],
+  "recommendations": [ 
+    { "title": "Counter-Strike 2", "link": "https://www.counter-strike.net/cs2" },
+    { "title": "Rainbow Six Siege", "link": "https://www.ubisoft.com/en-us/game/rainbow-six/siege" },
+    { "title": "Resident Evil", "link": "https://store.steampowered.com/sale/resident-evil/" },
+    { "title": "Battlefield 6", "link": "https://store.steampowered.com/app/2807960/Battlefield_6/" },
+    { "title": "ELDEN RING", "link": "https://store.steampowered.com/app/1245620/ELDEN_RING/" }
+  ]
+}
