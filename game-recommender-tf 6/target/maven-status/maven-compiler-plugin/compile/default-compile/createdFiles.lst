@@ -1,0 +1,15 @@
+com/gamerecommender/model/Game.class
+com/gamerecommender/MongoRecommender.class
+com/gamerecommender/SetupMongoDB.class
+com/gamerecommender/MongoRecommender$ScoredGame.class
+com/gamerecommender/ai/TensorFlowRecommendationModel$ScoredGame.class
+com/gamerecommender/model/UserProfile.class
+com/gamerecommender/Main.class
+com/gamerecommender/ai/TensorFlowFeatureEncoder.class
+com/gamerecommender/data/GameDatabase.class
+com/gamerecommender/ai/TensorFlowRecommendationModel.class
+com/gamerecommender/data/MongoGameDatabase.class
+com/gamerecommender/ai/TensorFlowRecommendationModel$TrainingExample.class
+com/gamerecommender/SimpleRecommender$ScoredGame.class
+com/gamerecommender/SimpleRecommender.class
+com/gamerecommender/LoadFullDatabase.class

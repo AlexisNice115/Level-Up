@@ -1,0 +1,11 @@
+/Users/Rehman/Downloads/game-recommender-tf 6/src/main/java/com/gamerecommender/data/GameDatabase.java
+/Users/Rehman/Downloads/game-recommender-tf 6/src/main/java/com/gamerecommender/model/Game.java
+/Users/Rehman/Downloads/game-recommender-tf 6/src/main/java/com/gamerecommender/model/UserProfile.java
+/Users/Rehman/Downloads/game-recommender-tf 6/src/main/java/com/gamerecommender/MongoRecommender.java
+/Users/Rehman/Downloads/game-recommender-tf 6/src/main/java/com/gamerecommender/ai/TensorFlowRecommendationModel.java
+/Users/Rehman/Downloads/game-recommender-tf 6/src/main/java/com/gamerecommender/LoadFullDatabase.java
+/Users/Rehman/Downloads/game-recommender-tf 6/src/main/java/com/gamerecommender/data/MongoGameDatabase.java
+/Users/Rehman/Downloads/game-recommender-tf 6/src/main/java/com/gamerecommender/SetupMongoDB.java
+/Users/Rehman/Downloads/game-recommender-tf 6/src/main/java/com/gamerecommender/SimpleRecommender.java
+/Users/Rehman/Downloads/game-recommender-tf 6/src/main/java/com/gamerecommender/ai/TensorFlowFeatureEncoder.java
+/Users/Rehman/Downloads/game-recommender-tf 6/src/main/java/com/gamerecommender/Main.java
